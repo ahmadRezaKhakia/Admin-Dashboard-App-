@@ -91,10 +91,10 @@ function Sidebar() {
               <Box display='flex' justifyContent='center' alignItems='center'>
                 <Avatar
                   alt='profile-user'
-                  width='100px'
-                  height='100px'
-                  src={'../../assets/marek-pospisil-PLZb71hLKWk-unsplash.jpg'}
-                  style={{cursor:'pointer' ,borderRadius:'50%'}}
+                  src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzR1iIYvX75I4z3-q6nx8U9ij4pqpPhHWv3fJzNPA1UMphgnHTZpiRAcUaB6ogRGrsy_I&usqp=CAU'}
+                  style={{ cursor: 'pointer', borderRadius: '50%' }}
+                  sx={{ width: 60, height: 60}}
+                  
                 />
               </Box>
               <Box textAlign='center'>

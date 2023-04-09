@@ -1,5 +1,5 @@
-import React from 'react'
-import {Box,Typography,useTheme} from '@mui/material'
+import React from 'react';
+import { Box, Typography, useTheme } from '@mui/material';
 import { DataGrid } from '@mui/x-data-grid';
 import { tokens } from '../../Theme';
 import { mockDataTeam } from '../../data/mockData';
@@ -28,7 +28,7 @@ function team() {
                         display='flex'
                         justifyContent='center'
                         backgroundColor={
-                            access === 'admin'
+                                access === 'admin'
                                 ? colors.greenAccent[600]
                                 : access === 'manager'
                                 ? colors.greenAccent[700]
@@ -53,7 +53,7 @@ function team() {
       <Box m='20px'>
           <Header title="TEAM" subtitle="Managing the Team Members" />    
           <Box
-              mt='40px 0 0 0'
+              m='40px 0 0 0'
               height='75vh'
               sx={{
                 "& .MuiDataGrid-root": {
